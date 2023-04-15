@@ -11,12 +11,6 @@ Clone the repository:
 git clone https://github.com/<username>/tweet-scheduler.git
 ```
 
-Install the required dependencies using pip:
-
-```bash
-pip install -r requirements.txt
-```
-
     1. Create a Twitter API key and access token by following these steps:
 
     2. Create a Twitter developer account if you don't already have one.
@@ -40,7 +34,7 @@ python scheduler.py
 ```
 You will be prompted to enter the text of the tweet, the year, month, day, hour, and minute of the scheduled tweet. The program will then calculate the time difference between the scheduled time and the current time, and sleep for that amount of time before sending the tweet.
 
-### Error handling
+## Error handling
 The program does not currently include error handling or validation, so it is important to ensure that the input is valid and that the tweet text is less than 280 characters.
 
 ## Contributing
